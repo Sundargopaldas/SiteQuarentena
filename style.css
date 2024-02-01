@@ -1,0 +1,188 @@
+*{
+
+box-sizing: border-box;
+padding: 0;
+text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  }
+  ul{
+  list-style: none;
+  }
+  body{
+  background-image: url(./img/encontros.jpg);
+  background-size: cover;
+  background-position: center;
+  
+  
+  }
+
+.logo-whatsapp img{
+width: 10%;
+cursor: pointer;
+}
+  
+
+.google-meet img{
+  width: 12%;
+  cursor: pointer;
+}
+
+.list-group a{
+color: black;
+font-weight: bold;
+font-size: 15px;
+}
+
+#artigos{
+  height: 100%;
+}
+.text-artico{
+  
+color: white;
+font-size: 18px;
+font-weight: bold;
+}
+.logo{
+  width: 200px;
+  margin-top: -700px;
+  margin-left: 900px;
+  position: absolute;
+}
+.frase-guru{
+  color: white;
+  width: 500px;
+  margin-left: 720px;
+  margin-top: -500px;
+  font-size: 17px;
+  position: absolute;
+}
+.nome-guru{
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+.titulo-quarentena{
+  color: white;
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 255px;
+  font-size: 40px;
+  font-family: 'IM Fell Double Pica SC', serif;
+  font-weight: bolder;
+}
+.btn{
+  width: 280px;
+}
+.sidebar{
+  background-color: rgb(44, 28, 75);
+  align-items: flex-start;
+  
+}
+
+.nav-link{
+padding: 5px;
+border-radius: 5px;
+
+}
+.nav-link:hover{
+background-color: blue;
+border: none;
+}
+
+.trivikrama-img{
+  width: 450px;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 14px;
+  
+  
+}
+
+@media (min-width:768px) and (max-width: 1024px) {
+  
+.titulo-quarentena{
+  position: absolute;
+  margin-left: 100px;
+  margin-top:-120px ;
+}
+.frase-guru{
+  margin-left: 340px;
+  margin-top: -250px;
+  width: 395px;
+}
+.logo{
+  margin-left: 500px;
+  margin-top: -430px;
+  width: 180px;
+
+}
+.trivikrama-img{
+  width: 160px;
+  margin-top: 40px;
+  margin-left: 20px;
+  position: absolute;
+}
+}
+
+@media (max-width: 450px) {
+
+  .trivikrama-img{
+    width: 95px;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+
+.titulo-quarentena{
+  color: white;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 10px;
+  font-size: 20px; 
+}
+.logo{
+  width: 80px;
+  margin-top: -170px;
+  margin-left: 230px;
+  position: absolute;
+}
+.frase-guru{
+  color: rgb(246, 242, 242);
+  width: 235px;
+  margin-left: 126px;
+  margin-top: -70px;
+  font-size: 12px;
+  position: absolute;
+}
+.nome-guru{
+margin-left: 10px;
+font-weight: bold;
+
+}
+  
+   .sidebar{
+    background-color: rgb(44, 28, 75);
+    align-items: flex-start;
+    
+}
+
+.nav-link{
+  padding: 5px;
+  border-radius: 5px;
+
+}
+.nav-link:hover{
+  background-color: blue;
+  border: none;
+}
+.titulo{
+  font-size: 10px;
+}
+
+
+
+}
+  
+  
